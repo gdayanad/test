@@ -13,7 +13,7 @@
 --FROM [FirmaUebung].[dbo].[Kunden];
 
 
--- Lösung Var. 1 mit YEAR--
+-- Lï¿½sung Var. 1 mit YEAR--
 SELECT  KundenID,
 		Nachname,
 		Vorname,
@@ -28,7 +28,7 @@ SELECT  KundenID,
 FROM FirmaUebung.dbo.Kunden
 ORDER BY GebDat;
 
--- Lösung Var. 2 ohne YEAR--
+-- Lï¿½sung Var. 2 ohne YEAR--
 SELECT  KundenID,
 		Nachname,
 		Vorname,
@@ -42,7 +42,7 @@ SELECT  KundenID,
 		AS 'Altersgruppe'
 FROM FirmaUebung.dbo.Kunden
 ORDER BY GebDat;
-
+-- test 
 -- andere Sortierung
 SELECT  KundenID,
 		Nachname,
